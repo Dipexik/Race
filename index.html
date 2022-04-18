@@ -115,7 +115,7 @@ unityI = unityInstance;
       }
 
       function PostBox(text) { // добавить на стену
-vkBridge.send('VKWebAppShowWallPostBox', {message:"Играем в Puzzle: Triangles Очень увлекательно и интересно! Иди поиграй со мной!" , "attachments": "https://vk.com/app8133149"}).then(data => {
+vkBridge.send('VKWebAppShowWallPostBox', {message:"Играем в Slaughter Cannon очень увлекательно и интересно! Иди поиграй со мной!" , "attachments": "https://vk.com/app8136278"}).then(data => {
   console.log(data);
           unityI.SendMessage('VKSDK', 'RewardGetting',JSON.stringify(data.result));})
 }
